@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drew's Recipes</title>
+    <link rel="icon" type="image/png" href="imagini/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="nyan_cat.js"></script>
+    <script src="volume.js"></script>
+    <script src="https://kit.fontawesome.com/ca30555241.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="imagini/chef_mascot.png" alt="chef mascot" id="chef_mascot">
+        <div id="header_logo">
+            <h1>Drew's Recipes 🍴</h1>
+            <h4>Food you would die for!</h4>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li class=" nav_selection "><a href="index.html">Main page</a></li>
+            <li class=" nav_selection " id="current"><a href="about.html">About</a></li>
+            <li class=" nav_selection "><a href="contact.html">Contact</a></li>
+
+            <li class=" end " id="yt"><a href="https://www.youtube.com/@drew8443" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a></li>
+            <li class=" end " id="ig"><a href="https://www.instagram.com/42_drew/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+            <li class=" end " id="git"><a href="https://github.com/Drew-42" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+        </ul>
+    </nav>
+
+    <main class=" main_h2 ">
+        <article>
+            <h2>About 😳</h2><br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto exercitationem, tempore corrupti sit nisi rem quidem. Consequatur enim aspernatur, saepe magnam sapiente deserunt, quibusdam placeat voluptatum a rerum, nam quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur consequatur maxime repudiandae, totam in veritatis sequi voluptatum fugiat porro ab inventore, tenetur velit modi nobis, nam nostrum! Maxime, ab pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sequi velit tenetur doloribus, magni quas sed odio quia officia hic. Accusamus dolore rerum laborum molestias dicta culpa, mollitia ipsa voluptas.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos enim vel minima veritatis quod, autem sed! Numquam, reprehenderit ex. Eligendi nulla quam suscipit maxime nemo debitis, totam eos provident? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloribus obcaecati atque dolores rem vel, saepe doloremque suscipit, harum amet porro inventore, consectetur reprehenderit deserunt. Dignissimos, reprehenderit? Minus, voluptate doloribus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, velit odit ducimus ut alias odio voluptates, harum veritatis quia libero accusamus quidem sequi voluptas nulla impedit? Debitis suscipit numquam voluptates? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique repellat magnam numquam et aliquid incidunt voluptates recusandae? Sequi magni architecto iusto itaque veniam corporis? Nisi possimus quod nulla sunt optio.</p>
+        </article>
+    </main>
+
+    <audio id="nyan_audio" src="muzica/Nyan Cat.mp3" type="audio/mp3" muted autoplay loop onloadeddata="volume_adjust()"></audio>  
+    <img id="nyan_cat" src="imagini/nyan-cat.gif" onclick="unmute_nyan()">
+
+    <footer class=" bottom ">
+        <pre>
+    drew42@gmail.com
+    All rights reserved
+        </pre>
+    </footer>
+</body>
+</html>

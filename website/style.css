@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(15, 33%, 7%);
+    color: whitesmoke;
+}
+header{
+    padding-top: 1px;
+    background-color: hsl(34, 40%, 47%);
+    height: 160px;
+    border-radius: 0px;
+}
+#chef_mascot{
+    height: 130px;
+    margin-top: 12px;
+    margin-left: 12px;
+    float: left;  
+}
+#header_logo{
+    margin-left: 145px;
+}
+header h1{
+    margin-bottom: 0;
+    font-size: 60px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.801);
+    font-style: italic;
+}
+header h4{
+    margin-top: 0;
+    margin-left: 240px;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.801);
+}
+#navbar ul{
+    border: 3px solid black;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgb(107, 63, 38);
+    padding: 0;
+    border-radius: 10px;
+}
+#navbar .nav_selection{
+    float: left;
+}
+#navbar .end{
+    float: right;
+}
+#navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+#navbar .nav_selection:hover{
+    background-color: hsl(23, 49%, 16%);
+}
+#navbar #current{
+    background-color: hsl(23, 49%, 16%);
+    font-weight: bold;
+    text-shadow: 0px 0px 20px;
+}
+.fa-brands.fa-youtube.fa-xl:hover{
+    color: rgb(255, 54, 54);
+}
+.fa-brands.fa-instagram.fa-xl:hover{
+    color: rgb(206, 30, 118);
+}
+.fa-brands.fa-github.fa-xl:hover{
+    color: rgb(21, 212, 139);
+}
+.flexmain{
+    display: flex;
+}
+.main_h2 h2{
+    color: darkkhaki;
+}
+article{
+    margin: 10px;
+    display: block;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.411);
+    border-radius: 10px;
+    width: 250px;
+    height: fit-content;
+    flex-shrink: 0;
+    display: block;
+}
+aside a{
+    color: whitesmoke;
+}
+aside a:hover{
+    text-shadow: 0px 0px 5px;
+}
+aside h4{
+    color: chocolate;
+    font-size: large;
+}
+#article_contact a{
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+#article_contact a:hover{
+    text-shadow: 0px 0px 10px;
+}
+#contact_yt:hover{
+    color: rgb(255, 54, 54);
+}
+#contact_ig:hover{
+    color: rgb(206, 30, 118);
+}
+#contact_git:hover{
+    color: rgb(21, 212, 139);
+}
+footer{
+    border-radius: 0px;
+    background-color: hsl(34, 40%, 47%);
+    color: black;
+    clear: both;
+}
+footer pre{
+    padding: 10px;
+}
+#nyan_cat{
+    max-height: 280px;
+}
+#nyan_cat:hover{
+    cursor: pointer;
+}
+.index_pictures{
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+    text-decoration: none;
+    background-color: darkgreen;
+    color: whitesmoke;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+    height: 270px;
+    margin: min(15px);
+}
+.index_pictures:hover{
+    background-color: green;
+    border-color: green;
+}
+.index_pictures img{
+    height: 230px;
+}
+.index_pictures:hover img{
+    filter: brightness(110%);
+}
+.index_pictures p{
+    text-align: center;
+    margin: 6px;
+}
+@media screen and (max-width:650px){
+    .flexmain{
+        flex-direction: column;
+    }
+    article, aside{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        height: 120px;
+    }
+    #chef_mascot{
+        height: 100px;
+    }
+    #header_logo{
+        margin-left: 120px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    header h4{
+        margin-left: 150px;
+        font-size: 15px;
+    }
+    article{
+        margin: 0;
+    }
+    #nyan_cat{
+    width: 100%;
+    }
+}
+@media screen and (max-width:560px){
+    .index_pictures{
+        height: 240px;
+    }
+    .index_pictures img{
+        height: 200px;
+    }
+}
